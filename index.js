@@ -111,4 +111,4 @@ client.connect(err => {
 });
 
 
-app.listen('5000' || process.env.PORT, () => console.log('Server is Connected'))
+app.listen(process.env.PORT || '5000', () => console.log('Server is Connected'))
